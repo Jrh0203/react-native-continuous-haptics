@@ -1,5 +1,5 @@
 {
-  "name": "react-native-continuous-haptics",
+  "name": "react-native-continous-haptics",
   "platforms": ["ios", "android"],
   "ios": {
     "modules": ["HapticsModule"]

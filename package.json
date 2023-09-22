@@ -1,6 +1,6 @@
 {
-  "name": "react-native-continuous-haptics",
-  "version": "12.4.0",
+  "name": "react-native-continous-haptics",
+  "version": "12.2.1",
   "description": "Provides access to the system's haptics engine on iOS and vibration effects on Android.",
   "main": "build/Haptics.js",
   "types": "build/Haptics.d.ts",
@@ -17,15 +17,15 @@
   "keywords": [
     "react-native",
     "expo",
-    "react-native-continuous-haptics",
+    "expo-haptics",
     "haptics"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jrh0203/react-native-continuous-haptics.git"
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
   },
-  "author": "John Herrick",
+  "author": "650 Industries, Inc.",
   "license": "MIT",
+  "homepage": "https://docs.expo.dev/versions/latest/sdk/haptics/",
   "dependencies": {},
   "devDependencies": {
     "expo-module-scripts": "^3.0.0"
