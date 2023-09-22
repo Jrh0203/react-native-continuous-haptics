@@ -48,4 +48,18 @@ export async function selectionAsync(): Promise<void> {
   await ExpoHaptics.selectionAsync();
 }
 
+export async function playHapticSequenceAsync(sequence: any) {
+  if (!ExpoHaptics.playHapticSequenceAsync) {
+    throw new UnavailabilityError('Haptics', 'playHapticSequenceAsync');
+  }
+  await ExpoHaptics.playHapticSequenceAsync(sequence);
+}
+
+export async function stopHapticSequence(): Promise<void> {
+  if (!ExpoHaptics.stopHapticSequence) {
+    throw new UnavailabilityError('Haptic', 'stopHapticSequence');
+  }
+  await ExpoHaptics.stopHapticSequence();
+}
+
 export { NotificationFeedbackType, ImpactFeedbackStyle };
