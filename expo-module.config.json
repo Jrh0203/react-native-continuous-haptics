@@ -1,5 +1,5 @@
 {
-  "name": "expo-haptics",
+  "name": "react-native-continuous-haptics",
   "platforms": ["ios", "android"],
   "ios": {
     "modules": ["HapticsModule"]

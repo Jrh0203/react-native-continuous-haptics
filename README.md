@@ -25,7 +25,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npx expo install expo-haptics
+npx expo install react-native-continuous-haptics
 ```
 
 ### Configure for iOS
