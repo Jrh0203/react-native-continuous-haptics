@@ -1,5 +1,5 @@
 {
-  "name": "react-native-continous-haptics",
+  "name": "react-native-continuous-haptics",
   "version": "12.2.1",
   "description": "Provides access to the system's haptics engine on iOS and vibration effects on Android.",
   "main": "build/Haptics.js",
