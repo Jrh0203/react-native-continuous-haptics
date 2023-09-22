@@ -1,55 +1,41 @@
 {
-  "name": "react-native-haptic-feedback",
-  "version": "2.2.0",
-  "description": "Basic haptic feedback for iOS and android",
-  "license": "MIT",
-  "main": "build/index.js",
-  "source": "./src/",
-  "nativePackage": true,
+  "name": "expo-haptics",
+  "version": "12.2.1",
+  "description": "Provides access to the system's haptics engine on iOS and vibration effects on Android.",
+  "main": "build/Haptics.js",
+  "types": "build/Haptics.d.ts",
+  "sideEffects": false,
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
   },
   "keywords": [
     "react-native",
-    "haptic",
-    "haptic-feedback",
-    "android",
-    "ios",
-    "native",
-    "feedback"
+    "expo",
+    "expo-haptics",
+    "haptics"
   ],
-  "author": "Michael Kuczera",
-  "peerDependencies": {
-    "react-native": ">=0.60.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mkuczera/react-native-haptic-feedback.git"
+    "url": "https://github.com/expo/expo.git",
+    "directory": "packages/expo-haptics"
   },
-  "homepage": "https://github.com/mkuczera/react-native-haptic-feedback",
-  "readme": "https://github.com/mkuczera/react-native-haptic-feedback#readme",
   "bugs": {
-    "url": "https://github.com/mkuczera/react-native-haptic-feedback/issues"
+    "url": "https://github.com/expo/expo/issues"
   },
-  "codegenConfig": {
-    "name": "RNHapticFeedbackSpec",
-    "type": "modules",
-    "jsSrcsDir": "src",
-    "android": {
-      "javaPackageName": "com.mkuczera"
-    }
-  },
+  "author": "650 Industries, Inc.",
+  "license": "MIT",
+  "homepage": "https://docs.expo.dev/versions/latest/sdk/haptics/",
+  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.21.3",
-    "@babel/runtime": "^7.21.0",
-    "@types/node": "^18.15.3",
-    "@types/react": "^18.0.28",
-    "@types/react-native": "^0.71.3",
-    "prettier": "^2.8.5",
-    "typescript": "^5.0.2"
+    "expo-module-scripts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "expo": "*"
   }
 }
